@@ -1,17 +1,38 @@
 body {
+    background: #5c5757;
 }
 h1 {
   font-family: "Quicksand", sans-serif;
   text-align: center;
   font-size: 40px;
+  color: #efecec;
 }
 h2 {
   font-family: "Libre Baskerville", serif;
   text-align: center;
   font-size: 60px;
+  color:#62929a;
 }
 h3 {
   font-family: "Quicksand", sans-serif;
   text-align: center;
   font-size: 40px;
+  color: #efecec;
+  
+}
+
+// color pallet.first-color { 
+	background: #363434; 
+}
+	
+.second-color { 
+	background: #5c5757; 
+}
+
+.third-color { 
+	background: #62929a; 
+}
+
+.fourth-color { 
+	background: #efecec; 
 }
