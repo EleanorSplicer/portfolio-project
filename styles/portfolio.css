@@ -1,38 +1,51 @@
+:root {
+  --primary-color: #efecec;
+  --background-color: #363434;
+  --header-color: #5c5757;
+  --accent-color: #62929a;
+  --heading-font-family: "Libre Baskerville", serif;
+  --default-font-family: "Quicksand", sans-serif;
+}
 body {
-    background: #5c5757;
+  background: var(--background-color);
 }
 h1 {
-  font-family: "Quicksand", sans-serif;
-  text-align: center;
-  font-size: 40px;
-  color: #efecec;
+  font-family: var(--heading-font-family);
+
+  color: var(--accent-color);
 }
 h2 {
-  font-family: "Libre Baskerville", serif;
-  text-align: center;
-  font-size: 60px;
-  color:#62929a;
+  font-family: var(--default-font-family);
+
+  color: var(--primary-color);
 }
 h3 {
-  font-family: "Quicksand", sans-serif;
+  font-family: var(--default-font-family);
+
+  color: var(--primary-color);
+}
+p {
+}
+.hero {
+  background: var(--header-color);
   text-align: center;
-  font-size: 40px;
-  color: #efecec;
-  
+  padding: 160px 20px;
 }
-
-// color pallet.first-color { 
-	background: #363434; 
+.hero h1 {
+  font-size: 80px;
+  font-weight: bold;
+  margin: auto;
 }
-	
-.second-color { 
-	background: #5c5757; 
+.hero h2 {
+  font-size: 50px;
+  margin: 0;
+  padding: 20px;
 }
-
-.third-color { 
-	background: #62929a; 
-}
-
-.fourth-color { 
-	background: #efecec; 
+.btn-branding {
+  background: var(--accent-color);
+  color: var(--primary-color);
+  font-size: 18px;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin: 0 auto;
 }
