@@ -47,26 +47,30 @@ img {
   margin: 0;
   padding: 20px;
 }
-.about-section {
+.content-container {
   padding: 40px;
 }
-.about-section h1 {
+.content h1 {
   font-size: 64px;
   line-height: 80px;
 }
-.about-section h2 {
+.content h2 {
   font-size: 40px;
 }
-.about-section p {
+.content h3 {
+  font-size: 24px;
+  font-family: var(--default-font-family);
+}
+.content p {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
-.about-section img {
+.content-container img {
   max-width: 400px;
   max-height: 400px;
   border-radius: 8px;
 }
-.about-section-content {
+.content-container-content {
   margin: 30px;
 }
 .btn-branding {
@@ -97,7 +101,7 @@ img {
   .hero {
     padding: 80px 20px;
   }
-  .about-section {
+  .content {
     text-align: center;
     padding: 0;
   }
