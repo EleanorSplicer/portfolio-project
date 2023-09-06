@@ -30,12 +30,11 @@ p {
   line-height: 1.5;
   color: var(--primary-color);
 }
-img {
-}
+
 .hero {
   background: var(--header-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .hero h1 {
   font-size: 80px;
@@ -91,6 +90,9 @@ img {
   border-radius: 4px;
   padding: 10px 20px;
   margin: 0 auto;
+}
+.fa-solid {
+  max-width: 150px;
 }
 @media (max-width: 900px) {
   h1 {
