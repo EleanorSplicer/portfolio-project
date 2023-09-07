@@ -74,7 +74,14 @@ footer .social-links a:hover {
   background: var(--accent-color);
   transition: all 150ms ease-in-out;
 }
-
+a {
+  color: var(--accent-color);
+}
+a:hover {
+  color: var(--primary-color);
+  background: var(--accent-color);
+  transition: all 150ms ease-in-out;
+}
 .hero {
   background: var(--header-color);
   text-align: center;
